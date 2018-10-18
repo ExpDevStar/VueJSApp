@@ -1,2 +1,2 @@
 # vuejs
-VueJs FrontEnd Application
+Learning VueJs FrontEnd Application Development
