@@ -1,12 +1,29 @@
-$maincolor: rgb(157, 169, 236);
+$maincolor: #9da9ec;
+$margin-space: 10px 10px;
+$font: arial;
 
 .mouse-click-events {
-	padding: 20px;
-	background: $maincolor;
-	color:#fff;
-	font-family: arial;
+  padding: 20px;
+  background: $maincolor;
+  color: #fff;
+  font-family: $font;
+  margin: $margin-space;
+  border: 1px solid red;
 
-	h1{
-		text-transform: uppercase;
-	}
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.keyboard-event {
+  padding: 20px;
+  background: #095f4a;
+  color: #fff;
+  font-family: $font;
+  margin: $margin-space;
+  border: 1px solid red;
+
+  h1 {
+    text-transform: uppercase;
+  }
 }

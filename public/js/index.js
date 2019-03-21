@@ -149,7 +149,7 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.js\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({\n  el: '#vue-app',\n  data: {\n    age: 27\n  },\n\n  methods: {\n    add: function () {\n      this.age++\n    },\n\n    subtract: function () {\n      this.age--\n    }\n  }\n})\n\n\n//# sourceURL=webpack:///./resources/assets/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.js\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({\n  el: '#vue-app',\n  data: {\n    age: 27,\n    firstName: '',\n    lastName: ''\n  },\n\n  methods: {\n    add: function () {\n      this.age++\n    },\n\n    subtract: function () {\n      this.age--\n    },\n\n    logfName: function () {\n      console.log(this.firstName)\n    },\n\n    loglName: function () {\n      console.log(this.lastName)\n    }\n  }\n})\n\n\n//# sourceURL=webpack:///./resources/assets/js/app.js?");
 
 /***/ }),
 
